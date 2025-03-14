@@ -1,0 +1,88 @@
+/* About Page Styling */
+h1{
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(24, 21, 21);
+    text-decoration: none;
+}
+
+#about-page {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.profile-pic img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.about-text {
+    max-width: 600px;
+}
+
+.about-text h2 {
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+.about-text h3 {
+    margin-top: 15px;
+    color: #333;
+}
+
+.about-text p, .about-text ul {
+    color: #555;
+    line-height: 1.6;
+}
+
+.about-text ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-text ul li {
+    margin-bottom: 5px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #007BFF;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
